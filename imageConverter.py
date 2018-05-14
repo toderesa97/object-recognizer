@@ -77,6 +77,6 @@ def convertSet(fromDirectory, toDirectory, folderName, size=(140, 80), verbose=T
 size = (140, 80)
 waterMark = "_resized"
 ext = "JPEG"
-convertSet("DATASET/245.windmill", "IMGR", "windmill", size, False, waterMark, ext, False)
-convertSet("DATASET/246.wine-bottle", "IMGR", "wine", size, False, waterMark, ext, False)
-convertSet("DATASET/256.toad", "IMGR", "toad", size, False, waterMark, ext, False)
+#convertSet("DATASET/cars", "IMGR", "car", size, False, waterMark, ext, True)
+#convertSet("DATASET/MOTORBIKE", "IMGR", "motorbike", size, False, waterMark, ext, True)
+convertSet("DATASET/AIRPLANE", "IMGR", "airplane", size, False, waterMark, ext, True)

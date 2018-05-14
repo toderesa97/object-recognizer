@@ -41,11 +41,11 @@ saver = tf.train.Saver()
 def interpret(param):
     print(param)
     if param[0][0] == 1.:
-        print(">>>>>>>>> TOAD")
+        print(">>>>>>>>> CAR")
     elif param[0][1] == 1.:
-        print("---------- WINDMILL")
+        print("---------- MOTORBIKE")
     elif param[0][2] == 1.:
-        print("############ WINE BOTTLE")
+        print("############ AIRPLANE")
 
 
 with tf.Session() as sess:
